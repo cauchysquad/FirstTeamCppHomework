@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1447351801 source:d:\domasno\teamhomework\domasno\bubblesort.cpp
+	<iostream>
+	<vector>
+	"BubbleSort.h"
+
+1447351694 d:\domasno\teamhomework\domasno\bubblesort.h
+
+1447352218 source:d:\domasno\teamhomework\domasno\insertionsort.cpp
+	"InsertionSort.h"
+	<iostream>
+	<algorithm>
+
+1447352143 d:\domasno\teamhomework\domasno\insertionsort.h
+
