@@ -1,0 +1,32 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int a[20];
+    int n ,k;
+    int minEl ,swapEl;
+    cin >> n;
+    for(int i = 0; i< n; i++)
+        cin >> a[i];
+
+    for(int i = 0; i < n - 1; i++)
+    {
+        k = i;
+        minEl = a[i];
+        for(int j = i + 1; j < n; j++)
+            if(a[j] < minEl)
+        {
+            minEl = a[j];
+            k = j;
+        }
+        swapEl = a[k];
+        a[k] = a[i];
+        a[i] = swapEl;
+    }
+
+    for(int i = 0; i < n; i++)
+        cout << a[i] <<endl ;
+    return 0;
+}
