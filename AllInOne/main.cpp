@@ -1,17 +1,15 @@
 #include "BubbleSort.h"
 #include "InsertionSort.h"
+#include "DirectSelection.h"
+#include "firstTable.h"
 #include <iostream>
 using namespace std;
 
 int main()
 {
-    int task;
-    cout<<"Enter the task number[1-2]: ";
-    cin>>task;
-    switch(task){
-     case 1:
+
          int sortChoice;
-         cout<<"Please choose between bubble(1),insertion(2) sort: ";
+         cout<<"Please choose between bubble(1),insertion(2) sort,direct selection(3): ";
          cin>>sortChoice;
          switch(sortChoice){
           case 1:
@@ -21,15 +19,18 @@ int main()
               InsertionSort();
             break;
 
+          case 3:
+              DirectSelection();
+            break;
+
+          default:
+            cout<<"Error"<<endl;
+            return main();
+
          }
-         break;
 
-     default:
-         cout<<"Error! The number should be between 1 and 2";
 
-         return main();
-         break;
-    }
+
 
     return 0;
 }

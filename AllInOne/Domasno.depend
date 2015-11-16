@@ -13,3 +13,22 @@
 
 1447352143 d:\domasno\teamhomework\domasno\insertionsort.h
 
+1447520659 source:d:\domasno\teamhomework\domasno\firsttable.cpp
+	"firstTable.h"
+	<iostream>
+
+1447520207 d:\domasno\teamhomework\domasno\firsttable.h
+
+1447697993 source:d:\domasno\teamhomework\domasno\main.cpp
+	"BubbleSort.h"
+	"InsertionSort.h"
+	"DirectSelection.h"
+	"firstTable.h"
+	<iostream>
+
+1447697956 source:d:\domasno\teamhomework\domasno\directselection.cpp
+	"DirectSelection.h"
+	<iostream>
+
+1447697904 d:\domasno\teamhomework\domasno\directselection.h
+
