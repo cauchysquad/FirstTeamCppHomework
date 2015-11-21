@@ -1,7 +1,5 @@
-#include "BubbleSort.h"
-#include "InsertionSort.h"
-#include "DirectSelection.h"
-#include "firstTable.h"
+#include "sorts.h"
+
 #include <iostream>
 using namespace std;
 

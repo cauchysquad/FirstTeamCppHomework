@@ -1,15 +1,9 @@
 # depslib dependency file v1.0
-1447351801 source:d:\domasno\teamhomework\domasno\bubblesort.cpp
-	<iostream>
-	<vector>
-	"BubbleSort.h"
+1448102802 source:d:\domasno\teamhomework\domasno\bubblesort.cpp
 
 1447351694 d:\domasno\teamhomework\domasno\bubblesort.h
 
-1447352218 source:d:\domasno\teamhomework\domasno\insertionsort.cpp
-	"InsertionSort.h"
-	<iostream>
-	<algorithm>
+1448102751 source:d:\domasno\teamhomework\domasno\insertionsort.cpp
 
 1447352143 d:\domasno\teamhomework\domasno\insertionsort.h
 
@@ -19,16 +13,20 @@
 
 1447520207 d:\domasno\teamhomework\domasno\firsttable.h
 
-1447697993 source:d:\domasno\teamhomework\domasno\main.cpp
-	"BubbleSort.h"
-	"InsertionSort.h"
-	"DirectSelection.h"
-	"firstTable.h"
+1448102824 source:d:\domasno\teamhomework\domasno\main.cpp
+	"sorts.h"
 	<iostream>
 
-1447697956 source:d:\domasno\teamhomework\domasno\directselection.cpp
+1448102706 source:d:\domasno\teamhomework\domasno\directselection.cpp
 	"DirectSelection.h"
-	<iostream>
 
-1447697904 d:\domasno\teamhomework\domasno\directselection.h
+1448102719 d:\domasno\teamhomework\domasno\directselection.h
+
+1448102814 d:\domasno\teamhomework\domasno\sorts.h
+
+1448102793 source:d:\domasno\teamhomework\domasno\sorts.cpp
+	"sorts.h"
+	<iostream>
+	<vector>
+	<algorithm>
 
